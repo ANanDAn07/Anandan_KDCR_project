@@ -1,4 +1,4 @@
-FLying Quadcopter Simulation in ROS, Gazebo
+Flying Quadcopter Simulation in ROS, Gazebo
 
 cd ~/<your workspace>/src
 catkin_create pkg flybot
