@@ -1,0 +1,15 @@
+FLying Quadcopter Simulation in ROS, Gazebo
+
+cd ~/<your workspace>/src
+catkin_create pkg flybot
+
+clone my repository into the newly created package
+
+cd ~/<your workspace>
+catkin_make
+
+Initialize gazebo simulation with:
+roslaunch fly_bot Kwad_gazebo.launch
+
+For making the drone airborne, open a new terminal and run:
+rosrun fly_bot control.py
